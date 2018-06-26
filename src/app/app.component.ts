@@ -12,3 +12,15 @@ export class AppComponent {
     this.count++;
   }
 }
+export function compute(number) {
+  if (number < 0) {
+    return 0;
+  }
+  return number++;
+}
+export function greet(name) {
+  return 'welcome ' + name;
+}
+export function getCurrencies() {
+  return ['shit', 'fucking', 'bitch'];
+}
